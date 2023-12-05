@@ -1,0 +1,22 @@
+[package]
+name = "carlink"
+version = "0.1.0"
+authors = ["Matt Hunzinger <matthunz2@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+dioxus = { git = "https://github.com/dioxuslabs/dioxus" }
+dioxus-desktop = { git = "https://github.com/dioxuslabs/dioxus" }
+dioxus-router = { git = "https://github.com/dioxuslabs/dioxus" }
+dioxus-signals = { git = "https://github.com/dioxuslabs/dioxus" }
+fermi = { git = "https://github.com/dioxuslabs/dioxus" }
+manganis = { git = "https://github.com/DioxusLabs/collect-assets" }
+
+log = "0.4.19"
+dioxus-logger = "0.4.1"
+console_error_panic_hook = "0.1.7"
+
+car-api = { path = "../car-api" }
+tray-icon = "0.9.0"
+image = "0.24.7"
+tokio = { version = "1.34.0", features = ["full"] }
